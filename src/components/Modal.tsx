@@ -22,7 +22,7 @@ const Modal: FC<ModalProps> = ({ isOpen, onClose, beer }) => {
 
   return (
     <div className="fixed inset-0 z-50 overflow-x-hidden flex justify-center items-center overflow-y-auto outline-none mx-auto max-w-[90%] md:max-w-[60%]">
-      <div className="bg-gray-300 rounded-lg p-5 h-[80vh] sm:h-[55%] overflow-hidden">
+      <div className="bg-gray-300 rounded-lg p-5 h-[80vh] lg:h-[55%] overflow-hidden">
         <div className="flex justify-between mb-6">
           <h1
             className="text-4xl font-bold items-center"
