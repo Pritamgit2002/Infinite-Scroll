@@ -3,6 +3,7 @@ import { LoadMore } from "@/components/load-more";
 import { Beers } from "@/components/beers";
 import localFont from "next/font/local";
 
+
 const ClashDisplay = localFont({
   src: "../../public/fonts/ClashDisplay-Semibold.woff2",
 });
@@ -16,7 +17,7 @@ const Home = async () => {
         <div className="text-gray-200" style={ClashDisplay.style}>
           Infinite Scroll
         </div>
-        
+
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
         <Beers beers={beers} />
